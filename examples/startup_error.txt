@@ -1,0 +1,5 @@
+# Скрипт должен остановиться на ошибке
+ls
+cd docs
+unknown_command
+ls

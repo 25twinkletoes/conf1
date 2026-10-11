@@ -1,0 +1,11 @@
+# Вариант 19: полный успешный сценарий
+ls
+head -n 3 docs/readme.txt
+cd docs
+ls
+cd ..
+cal 1 2025
+touch temporary.txt
+ls
+rmdir empty
+ls
