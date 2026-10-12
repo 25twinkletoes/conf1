@@ -80,7 +80,7 @@ pip install -r requirements.txt
 ## Запуск REPL
 
 ```bash
-./run.sh --vfs ./vfs/sample
+python -m src.main --vfs ./vfs/sample
 ```
 
 После запуска:
@@ -185,27 +185,6 @@ pytest -q
 ./scripts/run_minimal.sh
 ./scripts/run_sample.sh
 ./scripts/run_error.sh
-```
-
-## Git-коммиты
-
-Для соответствия этапам практической работы рекомендуется использовать отдельные коммиты:
-
-```bash
-git add .
-git commit -m "feat: implement stage 1 repl"
-
-git add .
-git commit -m "feat: implement stage 2 configuration"
-
-git add .
-git commit -m "feat: implement stage 3 vfs"
-
-git add .
-git commit -m "feat: implement stage 4 shell commands"
-
-git add .
-git commit -m "feat: implement stage 5 additional commands"
 ```
 
 ## Ограничение VFS
